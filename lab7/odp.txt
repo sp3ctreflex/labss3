@@ -1,0 +1,44 @@
+1. Jaką rolę pełni klasa Contact i z jaką tabelą jest powiązana?
+Klasa Contact jest modelem danych reprezentującym pojedynczy rekord. Jest powiązana z tabelą Contacts w bazie danych.
+
+2. Dlaczego pola Phone i Email są opcjonalne (string?)?
+Ponieważ nie każdy kontakt musi posiadać telefon lub e-mail. Odpowiada to kolumnom w bazie, które mogą mieć wartość NULL.
+
+3. W jakim celu zastosowano architekturę warstwową?
+Aby oddzielić logikę aplikacji od dostępu do danych. Zwiększa to czytelność i ułatwia utrzymanie kodu.
+
+4. Jaką odpowiedzialność ma klasa ContactRepository?
+Odpowiada za komunikację z bazą danych i wykonywanie zapytań SQL. Kod SQL znajduje się tam, bo jest to warstwa dostępu do danych (DAL).
+
+5. Co to jest connectionString i co musi zawierać?
+To ciąg znaków umożliwiający połączenie z bazą danych. Musi zawierać adres serwera i nazwę bazy danych.
+
+6. Jakie klasy ADO.NET są używane do komunikacji z SQL Server?
+Najczęściej używane są SqlConnection, SqlCommand i SqlDataReader. Do transakcji używa się SqlTransaction.
+
+7. Dlaczego używa się parametrów SQL zamiast konkatenacji stringów?
+Chronią one przed atakami SQL Injection. Zapewniają także poprawną obsługę typów danych.
+
+8. Jakiej metody ADO.NET używamy do INSERT, UPDATE i DELETE?
+Używamy metody ExecuteNonQuery(). Ponieważ te operacje nie zwracają danych, a tylko modyfikują rekordy.
+
+9. Jak pobierany jest identyfikator nowo dodanego kontaktu?
+Za pomocą zapytania SELECT SCOPE_IDENTITY(). Wynik jest pobierany metodą ExecuteScalar().
+
+10. Jak działa wyszukiwanie po nazwisku i czemu użyto LIKE?
+Operator LIKE umożliwia wyszukiwanie częściowe tekstu. Dzięki temu można znaleźć nazwiska zawierające podany fragment.
+
+11. Co to jest transakcja bazodanowa i po co użyto jej w BulkInsert?
+Transakcja grupuje wiele operacji w jedną całość. Zapewnia, że wszystkie dane zostaną zapisane albo żadne.
+
+12. Co się stanie, gdy w BulkInsert wystąpi błąd?
+Wykonywany jest Rollback transakcji. Żadne dane nie zostaną zapisane w bazie.
+
+13. Do czego służy klasa Logger i co zapisuje?
+Służy do zapisywania błędów i zdarzeń aplikacji. W pliku logs.txt zapisywana jest data i opis błędu.
+
+14. Jak program zabezpiecza się przed niepoprawnym identyfikatorem?
+Stosuje TryParse i obsługę wyjątków. Dzięki temu program nie kończy się błędem.
+
+15. Dlaczego Program.cs nie zawiera zapytań SQL?
+Ponieważ odpowiada tylko za logikę aplikacji i interakcję z użytkownikiem. Zapytania SQL znajdują się w warstwie DAL.
