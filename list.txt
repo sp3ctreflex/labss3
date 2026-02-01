@@ -1,0 +1,72 @@
+l1 Tworzenie prostych programów w języku C#
+Komentowanie kodu i tworzenie dokumentacji XML w języku C#
+Zadania
+1. Napisz program obliczający wyróżnik delta i pierwiastki trójmianu kwadratowego.
+2. Napisz program umożliwiający wprowadzanie 10-ciu liczb
+3. Napisz program wyświetlający liczby od 20-0, z wyłączeniem...
+4. Napisz program, który w nieskończoność pyta użytkownika o liczby całkowite...
+5. Napisz program umożliwiający wprowadzanie n liczb oraz sortujący te liczby metodą
+bąbelkową lub wstawiania. Wyniki wyświetlaj na konsoli.
+
+l2 klasy, obiekty, operatory dostępu, modyfikatory dostępu, konstruktory, gettery settery C#, 
+Zadania
+1. Napisz klasę Osoba, która będzie przechowywać informacje o imieniu, nazwisku oraz wieku osoby.
+2. Napisz klasę BankAccount, która będzie symulowała konto bankowe
+3. Napisz klasę Student, która będzie przechowywała imię, nazwisko i tablicę ocen.
+4. Stwórz klasę Licz z: publicznym polem value...
+5. Stwórz klasę Sumator z: publicznym...
+
+l3 DZIEDZICZENIE I POLIMORFIZM, ENKAPSULACJA
+1a Stwórz klasy: Person z polami: FirstName
+1b Stwórz klasę Reader, dziedziczącą z klasy Person.
+1c Dodaj do czytelnika metodę View, która 
+1d Metody View() w klasach Person i Reader poprzedź 
+1e Zmień widoczność pól w klasie Osoba na pola prywatne.
+1f Utwórz klasę Reviewer dziedziczącą z klasy Reader. 
+1g W Main stwórz listę obiektów klasy Person (List<Person>) 
+1h Zmień widoczność pól w klasie Book na protected.
+1i Stwórz klasy AdventureBook oraz DocumentaryBook. 
+1j Metodę View () klasy Book zmień na virtual. Zaimplemetuj metodę View
+2. Napisz program, w którym będą dwie klasy: Samochod i SamochodOsobowy. W klasach tych powinny
+znajdować się następujące pola...
+
+l4 POLIMORFIZM, DEFINIOWANIE KLAS ABSTRAKCYJNYCH I INTERFEJSÓW., Polimorfizm przeciążenie metod, Przeciążanie operatorów
+cw1. 1. System zarządzania formami zatrudnienia w firmie
+Zaprojektuj i zaimplementuj w języku C# prosty system zarządzania pracownikami i ich formami
+zatrudnienia. 
+Zadania
+1. Zaimplementuj klasę Shape, posiadającą właściwości X, Y, Height, Width oraz virutalną metodę Draw.
+Następnie zaimplementuj klasy...
+2. Napisz program wykorzystując polimorfizm, który będzie sprawdzał czy nauczyciel może wypuścić do
+domu uczniów swojej klasy bez opieki dorosłego
+3a Zdefiniuj interfejs IOsoba. Powinien on nakazywać implementację właściwości
+3b Napisz metodę rozszerzającą List<IOsoba> void WypiszOsoby(
+3c. Napisz metodę rozszerzającą List<IOsoba> void PosortujOsobyPoNazwisku()
+3d. Napisz interfejs IStudent, roszerzający interfejs IOsoba o właściwości Uczelnia, Kierunek, Rok, Semestr.
+Następnie stwórz klasę
+3e. Napisz i zaimplementuj klasę StudentWSIiZ, dziedziczącą po klasie Student. 
+
+l5 PRACA Z KOLEKCJAMI, TYP WYLICZENIOWY, WYJĄTK
+Zadania
+1. Kalkulator operacji matematycznych
+Napisz program kalkulator, który wykonuje operacje matematyczne na dwóch liczbach. 
+2: Zarządzanie zamówieniami w sklepie
+Stwórz aplikację konsolową, która zarządza zamówieniami w sklepie. Każde zamówienie powinno mieć
+przypisany status, reprezentowany przez typ wyliczeniowy (enum), 
+3: Gra w zgadywanie kolorów
+Stwórz grę, w której użytkownik zgaduje losowo wybrany kolor z listy dostępnych kolorów. Wykorzystaj
+typ wyliczeniowy (enum) do reprezentowania kolorów oraz kolekcję List<T> do przechowywania
+wszystkich dostępnych kolorów. 
+
+l6 OPERACJE WEJŚCIA-WYJŚCIA, PRACA Z PLIKAMI I SYSTEMAMI BAZODANOWYMI.,json,Serializacja i deserializacja danych
+Zadania
+1. Zaprojektuj system do zarządzania kontaktami (Id, Name, Email), który będzie posiadać następującą strukturę:
+2. Wykorzystując bazę danych „db.json”, zawierającą informację o populacji USA, Indii i Chin od roku
+1960, napisz program
+
+l7 PRAKTYCZNE I UPORZĄDKOWANE WPROWADZENIE DO PRACY Z APLIKACJAMI BAZODANOWYMI W C#, connectrion string
+Zadania
+Wykonaj prostą aplikację konsolową Console Contact Manager, która umożliwia zarządzanie
+kontaktami przechowywanymi w bazie danych SQL Server z wykorzystaniem technologii ADO.NET.
+Aplikacja ma przechowywać dane w tabeli: Contacts(Id, FirstName, LastName, Phone, Email) i
+realizować podstawowe operacje CRUD
