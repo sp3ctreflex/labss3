@@ -1,0 +1,28 @@
+Typ,Kierunek,Przedmiot,Prowadzacy,Sala,Dzien,GodzinaRozpoczecia,GodzinaZakonczenia,Grupa1,Grupa2
+Laboratorium,6IIZ,Analiza Matematyczna,Jan Kowalski,A101,Piatek,08:00:00,09:30:00,1,
+Laboratorium,6IIZ,Analiza Matematyczna,Anna Nowak,A102,Piatek,10:00:00,11:30:00,2,
+Projekt,6IIZ,Programowanie Obiektowe,Piotr Zielinski,B201,Sobota,08:00:00,09:30:00,1,2
+Wyklad,6IIZ,Programowanie Obiektowe,Maria Wójcik,B202,Niedziela,09:00:00,10:30:00,,
+Laboratorium,5IIS,Algorytmy i Struktury Danych,Jan Kowalski,C301,Poniedzialek,08:00:00,09:30:00,1,
+Wyklad,5IIS,Bazy Danych,Anna Nowak,C302,Poniedzialek,09:30:00,11:00:00,,
+Laboratorium,5IIS,Algorytmy i Struktury Danych,Piotr Zielinski,C301,Wtorek,08:00:00,09:30:00,2,
+Projekt,5IIS,Bazy Danych,Maria Wójcik,C302,Wtorek,09:30:00,11:00:00,1,2
+Laboratorium,5IIS,Algorytmy i Struktury Danych,Jan Kowalski,C301,Sroda,08:00:00,09:30:00,1,
+Wyklad,5IIS,Bazy Danych,Anna Nowak,C302,Sroda,09:30:00,11:00:00,,
+Projekt,5IIS,Algorytmy i Struktury Danych,Piotr Zielinski,C301,Czwartek,08:00:00,09:30:00,1,2
+Wyklad,5IIS,Bazy Danych,Maria Wójcik,C302,Czwartek,09:30:00,11:00:00,,
+Laboratorium,5IIS,Algorytmy i Struktury Danych,Jan Kowalski,C301,Piatek,08:00:00,09:30:00,1,
+Wyklad,5IIS,Bazy Danych,Anna Nowak,C302,Piatek,09:30:00,11:00:00,,
+Laboratorium,4IMS,Rachunek Rózniczkowy,Jan Kowalski,D401,Poniedzialek,10:00:00,11:30:00,1,
+Wyklad,4IMS,Algebra Linearna,Anna Nowak,D402,Poniedzialek,11:30:00,13:00:00,,
+Projekt,4IMS,Rachunek Rózniczkowy,Piotr Zielinski,D401,Wtorek,10:00:00,11:30:00,1,2
+Wyklad,4IMS,Algebra Linearna,Maria Wójcik,D402,Wtorek,11:30:00,13:00:00,,
+Projekt,4IMS,Rachunek Rózniczkowy,Jan Kowalski,D401,Sroda,10:00:00,11:30:00,1,0
+Wyklad,4IMS,Algebra Linearna,Anna Nowak,D402,Sroda,11:30:00,13:00:00,,
+Laboratorium,4IMS,Rachunek Rózniczkowy,Piotr Zielinski,D401,Czwartek,10:00:00,11:30:00,1,
+Wyklad,4IMS,Algebra Linearna,Maria Wójcik,D402,Czwartek,11:30:00,13:00:00,,
+Projekt,4IMS,Rachunek Rózniczkowy,Jan Kowalski,D401,Piatek,10:00:00,11:30:00,1,2
+Wyklad,4IMS,Algebra Linearna,Anna Nowak,D402,Piatek,11:30:00,13:00:00,,
+Laboratorium,4IMZ,Statystyka,Jan Kowalski,E501,Piatek,12:00:00,13:30:00,2,
+Laboratorium,4IMZ,Analiza Matematyczna,Anna Nowak,E502,Piatek,14:00:00,15:30:00,1,
+Projekt,4IMZ,Statystyka,Piotr Zielinski,F601,Sobota,08:00:00,09:30:00,1,2

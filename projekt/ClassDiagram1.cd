@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SystemRezerwacjiSal.Program">
+    <Position X="3.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIBCAAAAAQAAAQIAAQRABgAAFAAAAAAQAABAAAEAI=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemRezerwacjiSal.Utils.ValidationException">
+    <Position X="6.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\ValidationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemRezerwacjiSal.Models.Zajecia">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACKIAIABAIAAAEAAAAAAAAEAAAAQAAAAAAAAAgAAA=</HashCode>
+      <FileName>Models\Zajecia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemRezerwacjiSal.Models.Wyklad">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Models\Wyklad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemRezerwacjiSal.Models.Projekt">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAQAAAAAgAAA=</HashCode>
+      <FileName>Models\Projekt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemRezerwacjiSal.Models.Laboratorium">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAQAAAAAgAAA=</HashCode>
+      <FileName>Models\Laboratorium.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemRezerwacjiSal.Data.SqlDataProvider">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwUAAAAAAAAgAAAEAAAAAAAEAABgAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\SqlDataProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.367" />
+  </Class>
+  <Class Name="SystemRezerwacjiSal.Data.DbConfig">
+    <Position X="6.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Data\DbConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemRezerwacjiSal.Data.CsvImporter">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\CsvImporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemRezerwacjiSal.Data.CsvExporter">
+    <Position X="8.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\CsvExporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemRezerwacjiSal.Core.PlanZajec">
+    <Position X="1" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAIBAAAAAAQCAAAAAAAIAAAAAQAAAAAAEAA=</HashCode>
+      <FileName>Core\PlanZajec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SystemRezerwacjiSal.Data.IDataProvider">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\IDataProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
